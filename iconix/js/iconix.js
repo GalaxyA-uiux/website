@@ -1,3 +1,21 @@
+//메뉴 나오기
+if ($(window).width() > 640) {
+  $(".subGub.s1").hover(function () {
+    $(this).next().slideToggle();
+  });
+  // $(".subGub.s1").click(function () {
+  //   $(this).addClass('on').next().slideDown(300);
+  //   $(".subGub.s1").not(this).removeClass('on').next().slideUp(300);
+  //   return false;
+  // });
+  // $(".material-icons").click(function () {
+  //   $(".material-icons").toggle();
+  //   $(".gnb > ul").toggleClass('on');
+  // });
+}
+
+
+
 // 메인 애니메이션(동영상)
 var main = new Swiper('.swiper-container.main', {
   loop: true,

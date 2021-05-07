@@ -47,10 +47,12 @@ body {
 header .inner.head {
     /* width: 100%; */
     height: 69px;
+    line-height: 69px;
     /* background-color: red; */
-    padding-top: 22px;
+    /* padding-top: 22px; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header .inner.head > a:first-child {
     width: 127px;
@@ -60,22 +62,91 @@ header .inner.head > a:first-child {
 }
 header .inner.head .gub {
     width: 389px;
-    height: 18px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 header .inner.head .gub li {
     list-style: none;
+    width: 25%;
+    height: 100%;
 }
-header .inner.head .gub li a {
+header .inner.head .gub .subGub {
     text-decoration: none;
     color: #3e3e3e;
     font-size: 19px;
     font-weight: 700;
+    position: relative;
 }
-header .inner.head .gub li a:hover {
+header .inner.head .gub .subGub:hover {
     color: #3cb9e9;
 }
+header .inner.head .gub .subGub_list {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    position: absolute;
+    content: '';
+    top: 70px;
+    left: 0;
+    color: #efeeee;
+    display: flex;
+    padding-left: 779px;
+    display: none;
+}
+header .inner.head .gub .subGub_list.on {
+    display: inline-block;
+}
+header .inner.head .gub .subGub_list li{
+    font-size: 17px;
+    position: relative;
+}
+header .inner.head .gub .subGub_list li::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #c5c5c5;
+    top: 37px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+header .inner.head .gub .subGub_list li:hover::before {
+    width: calc(100%);
+    /* width: 49px; */
+    opacity: 1;
+}
+
+
+/* header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 1px;
+    background: white;
+    top: 25px;
+    left: -14px;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover::after {
+    width: calc(100% + 15px);
+    opacity: 1;
+} */
+
+
+
+header .inner.head .gub .subGub_list li:first-child {
+    margin-right: 45px;
+}
+/* header .inner.head .gub .subGub_list.on {
+    display: block;
+}ㅇㅇ */
 header .inner.head .lang {
     width: 85px;
     height: 14px;
