@@ -56,7 +56,7 @@ header .inner.head > a:first-child {
     width: 127px;
     height: 27px;
     display: block;
-    background: url(../imges/iconix/iconix_logo.png) 0 0 no-repeat;
+    background: url(../iconix/imges/iconix/iconix_logo.png) 0 0 no-repeat;
 }
 header .inner.head .gub {
     width: 389px;
@@ -267,14 +267,14 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     /* color: #7bdbff; */
     color: #8adfff;
 }
-.inner.sec .subtitle span {
-    /* font-family: 'KoPubBatangBold', Sans-serif; */
-    /* font-family: 'Black Han Sans', Sans-serif !important; */
+/* .inner.sec .subtitle span {
+    font-family: 'KoPubBatangBold', Sans-serif;
+    font-family: 'Black Han Sans', Sans-serif !important;
 }
 .inner.sec .subtitle span:last-child {
-    /* font-size: 135px; */
-    /* letter-spacing: -7px; */
-}
+    font-size: 135px;
+    letter-spacing: -7px;
+} */
 
 
 .inner.sec .sec_box {
@@ -302,50 +302,50 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .inner.sec .sec_box .box.bo1 {
     width: 33.33%;
     height: 66.66%;
-    background: url(../imges/iconix/boxb1_3.jpg) 72% 81%  no-repeat;
+    background: url(../iconix/imges/iconix/boxb1_3.jpg) 72% 81%  no-repeat;
     /* background-size: 825px; */
 }
 .inner.sec .sec_box .sec_box2 .box.bo2 {
-    background: url(../imges/iconix/boxb2.jpg) 77% 34% no-repeat;
+    background: url(../iconix/imges/iconix/boxb2.jpg) 77% 34% no-repeat;
 }
 .inner.sec .sec_box .sec_box2 .box.bo3 {
-    background: url(../imges/iconix/boxb3.jpg) 50% 65% no-repeat;
+    background: url(../iconix/imges/iconix/boxb3.jpg) 50% 65% no-repeat;
     background-size: 515px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo4 {
     width: 50%;
     height: 50%;
-    background: url(../imges/iconix/boxb4.jpg) 95% 82% no-repeat;
+    background: url(../iconix/imges/iconix/boxb4.jpg) 95% 82% no-repeat;
     background-size: 607px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo5 {
-    background: url(../imges/iconix/boxb5.jpg) 96% 86%  no-repeat;
+    background: url(../iconix/imges/iconix/boxb5.jpg) 96% 86%  no-repeat;
     background-size: 247px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo6 {
-    background: url(../imges/iconix/boxb6.jpg) 68% 6% no-repeat;
+    background: url(../iconix/imges/iconix/boxb6.jpg) 68% 6% no-repeat;
     background-size: 585px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo7 {
     width: 50%;
     height: 50%;
-    background: url(../imges/iconix/boxb7.jpg) 46% 34% no-repeat;
+    background: url(../iconix/imges/iconix/boxb7.jpg) 46% 34% no-repeat;
     background-size: 497px;
 }
 .inner.sec .sec_box .box.bo8 {
-    background: url(../imges/iconix/boxb8.jpg) 50% 59% no-repeat;
+    background: url(../iconix/imges/iconix/boxb8.jpg) 50% 59% no-repeat;
     background-size: 300px;
 }
 .inner.sec .sec_box .box.bo9 {
-    background: url(../imges/iconix/boxb9.jpg) 35% 61% no-repeat;
+    background: url(../iconix/imges/iconix/boxb9.jpg) 35% 61% no-repeat;
     background-size: 725px;
 }
 .inner.sec .sec_box .box.bo10 {
     width: 33.33%;
-    background: url(../imges/iconix/boxb10.jpg) 66% 11% no-repeat;
+    background: url(../iconix/imges/iconix/boxb10.jpg) 66% 11% no-repeat;
 }
 .inner.sec .sec_box .box.bo11 {
-    background: url(../imges/iconix/boxb11.jpg) 29% 13% no-repeat;
+    background: url(../iconix/imges/iconix/boxb11.jpg) 29% 13% no-repeat;
     background-size: 786px;
 }
 .inner.sec .box {
@@ -380,45 +380,45 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 
 
 .inner.sec .sec_box .box.bo1:hover {
-    background: url(../imges/iconix/box1_3.jpg) 72% 81% no-repeat;
+    background: url(../iconix/imges/iconix/box1_3.jpg) 72% 81% no-repeat;
     /* background-size: 825px; */
 }
 .inner.sec .sec_box .sec_box2 .box.bo2:hover {
-    background: url(../imges/iconix/box2.jpg) 77% 34% no-repeat;
+    background: url(../iconix/imges/iconix/box2.jpg) 77% 34% no-repeat;
 }
 .inner.sec .sec_box .sec_box2 .box.bo3:hover {
-    background: url(../imges/iconix/box3.jpg) 50% 65% no-repeat;
+    background: url(../iconix/imges/iconix/box3.jpg) 50% 65% no-repeat;
     background-size: 515px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo4:hover {
-    background: url(../imges/iconix/box4.jpg) 95% 82% no-repeat;
+    background: url(../iconix/imges/iconix/box4.jpg) 95% 82% no-repeat;
     background-size: 607px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo5:hover {
-    background: url(../imges/iconix/box5.jpg) 96% 86%  no-repeat;
+    background: url(../iconix/imges/iconix/box5.jpg) 96% 86%  no-repeat;
     background-size: 247px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo6:hover {
-    background: url(../imges/iconix/box6.jpg) 68% 6% no-repeat;
+    background: url(../iconix/imges/iconix/box6.jpg) 68% 6% no-repeat;
     background-size: 585px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo7:hover {
-    background: url(../imges/iconix/box7.jpg) 46% 34% no-repeat;
+    background: url(../iconix/imges/iconix/box7.jpg) 46% 34% no-repeat;
     background-size: 497px;
 }
 .inner.sec .sec_box .box.bo8:hover {
-    background: url(../imges/iconix/box8.jpg) 50% 59% no-repeat;
+    background: url(../iconix/imges/iconix/box8.jpg) 50% 59% no-repeat;
     background-size: 300px;
 }
 .inner.sec .sec_box .box.bo9:hover {
-    background: url(../imges/iconix/box9.jpg) 35% 61% no-repeat;
+    background: url(../iconix/imges/iconix/box9.jpg) 35% 61% no-repeat;
     background-size: 725px;
 }
 .inner.sec .sec_box .box.bo10:hover {
-    background: url(../imges/iconix/box10.jpg) 66% 11% no-repeat;
+    background: url(../iconix/imges/iconix/box10.jpg) 66% 11% no-repeat;
 }
 .inner.sec .sec_box .box.bo11:hover {
-    background: url(../imges/iconix/box11.jpg) 29% 13% no-repeat;
+    background: url(../iconix/imges/iconix/box11.jpg) 29% 13% no-repeat;
     background-size: 786px;
 }
 
@@ -465,7 +465,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .inner.sec .sec_box .box_button div {
     width: 104px;
     height: 51px;
-    background: url(../imges/iconix/arrow.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/arrow.png) 50% 50% no-repeat;
     margin: 0 20px 45px -74px;
 }
 
@@ -502,7 +502,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .sec1 {
     width: 100%;
     height: 1200px;
-    background: url(../imges/iconix/map2.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/map2.png) 50% 50% no-repeat;
     padding-top: -256px;
 }
 .sec1 .sec1_bg {
@@ -521,7 +521,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .sec1 .sec1_bg .inner h2::before {
     width: 84px;
     height: 64px;
-    background: url(../imges/iconix/dec.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/dec.png) 50% 50% no-repeat;
     position: absolute;
     content: "";
     top: -70px;
@@ -539,7 +539,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .sec1 .sec1_bg .inner .sec1_subtitle::after {
     width: 84px;
     height: 64px;
-    background: url(../imges/iconix/dec.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/dec.png) 50% 50% no-repeat;
     position: absolute;
     content: "";
     top: 108px;
@@ -553,7 +553,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .sec1 .sec1_bg .inner .sec1_pororo .pororo {
     width: 368px;
     height: 509px;
-    background: url(../imges/iconix/pororo.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/pororo.png) 50% 50% no-repeat;
     margin: 169px 47px 0 0;
     z-index: 1;
 }
@@ -786,27 +786,27 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     background-size: cover;
 } */
 .inner.art1 .news .news_1 .news_2 .news_img.m2 {
-    background: url(../imges/iconix/news22.jpg) 50% 49% no-repeat;
+    background: url(../iconix/imges/iconix/news22.jpg) 50% 49% no-repeat;
     background-size: cover;
 }
 .inner.art1 .news .news_1 .news_2 .news_img.m3 {
-    background: url(../imges/iconix/news4.jpg) 50% 46% no-repeat;
+    background: url(../iconix/imges/iconix/news4.jpg) 50% 46% no-repeat;
     background-size: cover;
 }
 .inner.art1 .news .news_1 .news_2 .news_img.m5 {
-    background: url(../imges/iconix/news33.jpg) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/news33.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 .inner.art1 .news .news_1 .news_2 .news_img.m6 {
-    background: url(../imges/iconix/news555.jpg) 50% 48% no-repeat;
+    background: url(../iconix/imges/iconix/news555.jpg) 50% 48% no-repeat;
     background-size: cover;
 }
 .inner.art1 .news .news_1 .news_2 .news_img.m7 {
-    background: url(../imges/iconix/news66.jpg) 50% 40% no-repeat;
+    background: url(../iconix/imges/iconix/news66.jpg) 50% 40% no-repeat;
     background-size: cover;
 }
 .inner.art1 .news .news_1 .news_2 .news_img.m8 {
-    background: url(../imges/iconix/news7.jpg) 50% 49% no-repeat;
+    background: url(../iconix/imges/iconix/news7.jpg) 50% 49% no-repeat;
     background-size: cover;
 }
 
@@ -899,39 +899,39 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     left: 25px;
 }
 .news .news_button .bt_character.c1 {
-    background: url(../imges/iconix/newslist_pororo3_bk.jpg) 54% 29% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pororo3_bk.jpg) 54% 29% no-repeat;
     background-size: 122px;
 }
 .news .news_button button:hover .bt_character.c1,
 .news .news_button button.on .bt_character.c1 {
-    background: url(../imges/iconix/newslist_pororo3.jpg) 54% 29% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pororo3.jpg) 54% 29% no-repeat;
     background-size: 122px;
 }
 .news .news_button .bt_character.c2 {
-    background: url(../imges/iconix/newslist_rope_bk.jpg) 52% 35% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_rope_bk.jpg) 52% 35% no-repeat;
     background-size: 139px;
 }
 .news .news_button button:hover .bt_character.c2,
 .news .news_button button.on .bt_character.c2 {
-    background: url(../imges/iconix/newslist_rope.jpg) 52% 35% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_rope.jpg) 52% 35% no-repeat;
     background-size: 139px;
 }
 .news .news_button .bt_character.c3 {
-    background: url(../imges/iconix/newslist_pee_bk.jpg) 41% 57% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pee_bk.jpg) 41% 57% no-repeat;
     background-size: 156px;
 }
 .news .news_button button:hover .bt_character.c3,
 .news .news_button button.on .bt_character.c3 {
-    background: url(../imges/iconix/newslist_pee.jpg) 41% 57% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pee.jpg) 41% 57% no-repeat;
     background-size: 156px;
 }
 .news .news_button .bt_character.c4 {
-    background: url(../imges/iconix/newslist_pota_bk.jpg) 42% 50% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pota_bk.jpg) 42% 50% no-repeat;
     background-size: 116px;
 }
 .news .news_button button:hover .bt_character.c4,
 .news .news_button button.on .bt_character.c4 {
-    background: url(../imges/iconix/newslist_pota.jpg) 42% 50% no-repeat;
+    background: url(../iconix/imges/iconix/newslist_pota.jpg) 42% 50% no-repeat;
     background-size: 116px;
 }
 
@@ -951,7 +951,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     border: 0;
 }
 .inner.art1 .licens .licens_img {
-    background: url(../imges/iconix/licens.jpg) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/licens.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 .inner.art1 .licens .licens_text .licens_radio {
@@ -1022,7 +1022,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     transition: all .2s;
     width: 43px;
     height: 43px;
-    background: url(../imges/iconix/radio_button3.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/radio_button3.png) 50% 50% no-repeat;
     /* background-color: #3cb9e9; */
     background-size: cover;
     border-radius: 50%;
@@ -1140,19 +1140,19 @@ label:hover::before {
     /* background-size: cover; */
 }
 .sec2 .swiper-container .swiper-slide.hig1 {
-    background: url(../imges/iconix/hig1.jpg) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/hig1.jpg) 50% 50% no-repeat;
 }
 .sec2 .swiper-container .swiper-slide.hig2 {
-    background: url(../imges/iconix/hig2.jpg) 33% 50% no-repeat;
+    background: url(../iconix/imges/iconix/hig2.jpg) 33% 50% no-repeat;
 }
 .sec2 .swiper-container .swiper-slide.hig3 {
-    background: url(../imges/iconix/hig3.jpg) 51% 100% no-repeat;
+    background: url(../iconix/imges/iconix/hig3.jpg) 51% 100% no-repeat;
 }
 .sec2 .swiper-container .swiper-slide.hig4 {
-    background: url(../imges/iconix/hig4.jpg) 50% 40% no-repeat;
+    background: url(../iconix/imges/iconix/hig4.jpg) 50% 40% no-repeat;
 }
 .sec2 .swiper-container .swiper-slide.hig5 {
-    background: url(../imges/iconix/hig5.jpg) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/hig5.jpg) 50% 50% no-repeat;
 }
 
 .sec2 .swiper-container .swiper-slide .hover_text {
@@ -1184,13 +1184,13 @@ label:hover::before {
 }
 
 .sec2 .swiper-container .swiper-slide .hover_text  .hover_title .hover_icon.i3 {
-    background: url(../imges/iconix/hig_icon3.jpg);
+    background: url(../iconix/imges/iconix/hig_icon3.jpg);
 }
 .sec2 .swiper-container .swiper-slide .hover_text  .hover_title .hover_icon.i4 {
-    background: url(../imges/iconix/hig_icon4.jpg);
+    background: url(../iconix/imges/iconix/hig_icon4.jpg);
 }
 .sec2 .swiper-container .swiper-slide .hover_text  .hover_title .hover_icon.i5 {
-    background: url(../imges/iconix/hig_icon5.jpg);
+    background: url(../iconix/imges/iconix/hig_icon5.jpg);
 }
 .sec2 .swiper-container .swiper-slide .hover_text  .hover_title > span {
     font-size: 17px;
@@ -1229,7 +1229,7 @@ footer .inner .footer_text {
 footer .inner .footer_text > a > div {
     width: 109px;
     height: 50px;
-    background: url(../imges/iconix/iconixlogo_w.png) 50% 6% no-repeat;
+    background: url(../iconix/imges/iconix/iconixlogo_w.png) 50% 6% no-repeat;
     margin-right: 25px;
     background-size: 105px;
 }
@@ -1257,29 +1257,29 @@ footer .inner .footer_text .footer_add .sns_icon a {
     display: block;
 }
 footer .inner .footer_text .footer_add .sns_icon a:first-child {
-    background: url(../imges/iconix/icons.png) -104px 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons.png) -104px 0 no-repeat;
     background-size: 138px;
 }
 footer .inner .footer_text .footer_add .sns_icon a:nth-child(2) {
-    background: url(../imges/iconix/icons.png) 0 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons.png) 0 0 no-repeat;
     background-size: 138px;
     margin: 0 15px;
 }
 footer .inner .footer_text .footer_add .sns_icon a:last-child {
-    background: url(../imges/iconix/icons.png) -35px 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons.png) -35px 0 no-repeat;
     background-size: 138px;
 }
 footer .inner .footer_text .footer_add .sns_icon a:first-child:hover {
-    background: url(../imges/iconix/icons_hover.png) -104px 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons_hover.png) -104px 0 no-repeat;
     background-size: 138px;
 }
 footer .inner .footer_text .footer_add .sns_icon a:nth-child(2):hover {
-    background: url(../imges/iconix/icons_hover.png) 0 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons_hover.png) 0 0 no-repeat;
     background-size: 138px;
     margin: 0 15px;
 }
 footer .inner .footer_text .footer_add .sns_icon a:last-child:hover {
-    background: url(../imges/iconix/icons_hover.png) -35px 0 no-repeat;
+    background: url(../iconix/imges/iconix/icons_hover.png) -35px 0 no-repeat;
     background-size: 138px;
 }
 
@@ -1304,7 +1304,7 @@ footer .inner .top:hover span {
 footer .inner .top div {
     width: 67px;
     height: 72px;
-    background: url(../imges/iconix/top_pororo.png) 50% 50% no-repeat;
+    background: url(../iconix/imges/iconix/top_pororo.png) 50% 50% no-repeat;
     /* background-size: 70px; */
     margin-top: 5px;
 }
