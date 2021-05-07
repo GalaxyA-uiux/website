@@ -1162,7 +1162,7 @@ label:hover::before {
     color: white;
     position: absolute;
     bottom: 0;
-    padding: 40px 0 0 35px;
+    padding: 30px 0 0 37px;
     opacity: 0;
 }
 .sec2 .swiper-container .swiper-slide:hover .hover_text {
@@ -1197,10 +1197,10 @@ label:hover::before {
 }
 .sec2 .swiper-container .swiper-slide .hover_text p {
     width: 90%;
-    font-size: 19px;
+    font-size: 18px;
     /* font-weight:700; */
     line-height: 1.5;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 .sec2 .swiper-container .swiper-slide .hover_text span {
     font-size: 15px;
