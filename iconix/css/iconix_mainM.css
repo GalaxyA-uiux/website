@@ -21,7 +21,7 @@
     button {
       -webkit-tap-highlight-color:transparent;
     }
-  }
+}
 
 @media only screen and (max-width: 767px) {
     .subtitle2 p br{
