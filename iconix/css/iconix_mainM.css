@@ -226,7 +226,7 @@ header .head .lang ul {
 header .head .lang ul.open {
     display: block;
     z-index: 5;
-    margin: 12px 0 0 -24px;
+    margin: 14px 0 0 -24px;
     /* position: absolute;
     top: 0;
     left: 0;
@@ -386,76 +386,23 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .but {
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:first-child {
     margin-right: 17px;
 }
-/* header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 {
-    position: relative;
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1::after,
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover::after,
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover span,
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button::before,
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button:hover::before,
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover .buthov {
+    display: none;
 }
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1::after {
-    position: absolute;
-    content: "";
-    width: 0px;
-    height: 1px;
-    background: white;
-    top: 25px;
-    left: -14px;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.3s;
-    opacity: 0;
-} */
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover::after {
-    /* width: calc(100% + 15px);
-    opacity: 1; */
-    color: var(-webkit-tap-highlight-color);
-}
-
-/* header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 span {
-    font-size: 18px;
-    font-weight: 700;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: -20px;
-    transform: rotate( 0deg );
-    opacity: 0;
-} */
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover span { 
-    /* transition: all 0.5s;
-    transform: rotate( 180deg );
-    opacity: 1; */
-    color: var(-webkit-tap-highlight-color);
-}
-
-
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button { 
     font-size: 16px;
     font-weight: 800;
     color: white;
     border: 3px solid white;
-    padding: 6px 18px;
+    padding: 6px 14px;
     background: none;
     cursor: pointer;
     position: relative;
-}
-/* header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: white;
-
-    transition: transform 0.2s ease-in-out;
-    transform: scaleY(0);
-    transform-origin: top;
-} */
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button:hover::before {
-    /* transform: scaleY(1); */
-    color: var(-webkit-tap-highlight-color);
-}
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover .buthov {
-    /* color: #3cb9e9; */
-    color: var(-webkit-tap-highlight-color);
 }
 
 
@@ -613,10 +560,13 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     width: 66%;
     height: 19%;
     background: #1d80cb;
-    padding: 10px 0 0 100px;
+    /* padding: 10px 0 0 100px; */
+    /* padding: 0 0 0 0; */
     position: relative;
     z-index: 1;
     cursor: pointer;
+    display: flex;
+    /* justify-content: flex-end; */
 }
 .inner.sec .sec_box .box_button::before {
     display: none;
@@ -632,13 +582,16 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    text-align: end;
+    margin: 0 15px 0 0;
 }
 .inner.sec .sec_box .box_button div {
     width: 104px;
     height: 51px;
     background: url(../imges/iconix/arrow.png) 50% 50% no-repeat;
     background-size: 76px;
-    margin: 1px 0 -3px -101px;
+    margin: -18px 0 -8px -102px;
+    /* margin: 0 0 0 0; */
 }
 
 
