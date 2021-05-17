@@ -614,11 +614,11 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     margin-top: 6px;
     line-height: 1.4;
 }
-.inner.sec p {
+.inner.sec .subtitle2 p {
     font-size: 16px;
     color: #1d1d1d;
     margin-top: 9px;
-    line-height: 1.7;
+    line-height: 1.6;
     /* margin-left: 125px; */
     /* text-align: right; */
     padding: 6px 0 39px 0;
@@ -643,7 +643,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 }
 .sec1 .sec1_bg .inner h2 {
     /* width: 90%; */
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 700;
     color: #f8f8f8;
     margin-bottom: 61px;
