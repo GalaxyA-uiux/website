@@ -53,7 +53,7 @@ header .head {
     height: auto;
     line-height: 53px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
 }
@@ -181,7 +181,7 @@ header .head .lang {
     width: 82px;
     height: 53px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-direction: column;
 }
 header .head .lang button {
@@ -193,12 +193,13 @@ header .head .lang button {
     background-color: #3cb9e9;
     font-weight: 700;
     display: flex;
-    margin: 14px 0 0 83px;
+
+    /* margin: 14px 0 0 83px; */
     padding-left: 7px;
-    /* position: absolute;
-    top: 14px;
-    left: 0;
-    right: 0; */
+    position: absolute;
+    top: -14px;
+    left: -24px;
+    right: 0;
 }
 header .head .lang button i {
     display: block;
@@ -352,7 +353,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text h5 {
     font-size: 18px;
     color: white;
     font-weight: 800;
-    margin: 132px 0 9px 24px;
+    margin: 132px 0 9px 20px;
 }
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text h5 span:last-child {
     opacity: .6;
@@ -537,13 +538,13 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .inner.sec .sec_box .box.bo1:hover  {
     width: 100%;
     height: 26%;
-    background: url(../imges/iconix/box1_3.jpg) 78% 37%  no-repeat;
-    background-size: 281px;
+    background: url(../imges/iconix/box1_3.jpg) 71% 41%  no-repeat;
+    background-size: 354px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo2,
 .inner.sec .sec_box .sec_box2 .box.bo2:hover {
-    background: url(../imges/iconix/box2.jpg) 77% 37% no-repeat;
-    background-size: 362px;
+    background: url(../imges/iconix/box2.jpg) 79% 36% no-repeat;
+    background-size: 398px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo3,
 .inner.sec .sec_box .sec_box2 .box.bo3:hover {
@@ -554,8 +555,8 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .inner.sec .sec_box .sec_box2 .box.bo4:hover {
     width: 32%;
     height: 50%;
-    background: url(../imges/iconix/box4.jpg) 95% 111% no-repeat;
-    background-size: 265px;
+    background: url(../imges/iconix/box4.jpg) 98% 97% no-repeat;
+    background-size: 281px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo5,
 .inner.sec .sec_box .sec_box2 .box.bo5:hover {
@@ -564,7 +565,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 }
 .inner.sec .sec_box .sec_box2 .box.bo6,
 .inner.sec .sec_box .sec_box2 .box.bo6:hover {
-    background: url(../imges/iconix/box6.jpg) 68% 18% no-repeat;
+    background: url(../imges/iconix/box6.jpg) 66% 9% no-repeat;
     background-size: 321px;
 }
 .inner.sec .sec_box .sec_box2 .box.bo7,
@@ -596,8 +597,8 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .inner.sec .sec_box .box.bo11,
 .inner.sec .sec_box .box.bo11:hover {
     height: 19%;
-    background: url(../imges/iconix/box11.jpg) 28% 20% no-repeat;
-    background-size: 490px;
+    background: url(../imges/iconix/box11.jpg) 28% 13% no-repeat;
+    background-size: 515px;
 }
 
 .inner.sec .sec_box .box_button {
