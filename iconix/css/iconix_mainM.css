@@ -25,7 +25,8 @@
 
 @media only screen and (max-width: 767px) {
     .subtitle2 p br,
-    header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text h2 br{
+    header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text h2 br,
+    .sec1 .sec1_bg .inner .sec1_subtitle br {
 	    display:none !important;
     }
 }
@@ -614,13 +615,13 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     line-height: 1.4;
 }
 .inner.sec p {
-    font-size: 15px;
+    font-size: 16px;
     color: #1d1d1d;
     margin-top: 9px;
-    line-height: 1.6;
+    line-height: 1.7;
     /* margin-left: 125px; */
     /* text-align: right; */
-    padding: 6px -50px 0 0;
+    padding: 6px 0 39px 0;
 }
 
 
@@ -630,48 +631,52 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 .sec1 {
     width: 100%;
     height: 1200px;
-    background: url(../imges/iconix/map2.png) 50% 50% no-repeat;
+    background: url(../imges/iconix/map2.png) 50% 7% no-repeat;
+    background-size: 700px;
     padding-top: -256px;
 }
 .sec1 .sec1_bg {
     width: 100%;
-    height: 1173px;
+    height: 800px;
     background: rgba(0, 0, 0, 0.7);
-    padding-top: 171px;
+    padding-top: 75px;
 }
 .sec1 .sec1_bg .inner h2 {
-    font-size: 70px;
+    /* width: 90%; */
+    font-size: 45px;
     font-weight: 700;
     color: #f8f8f8;
-    margin-bottom: 22px;
+    margin-bottom: 61px;
     position: relative;
 }
 .sec1 .sec1_bg .inner h2::before {
-    width: 84px;
+    width: 50px;
     height: 64px;
     background: url(../imges/iconix/dec.png) 50% 50% no-repeat;
+    background-size: 50px;
     position: absolute;
     content: "";
-    top: -70px;
-    left: 356px;
+    top: -45px;
+    left: 93px;
 }
 .sec1 .sec1_bg .inner h2 span {
     color: #3cb9e9;
 }
 .sec1 .sec1_bg .inner .sec1_subtitle {
-    font-size: 18px;
+    font-size: 16px;
     color: #f8f8f8;
-    line-height: 1.8;
+    line-height: 1.7;
     position: relative;
 }
 .sec1 .sec1_bg .inner .sec1_subtitle::after {
-    width: 84px;
+    width: 50px;
     height: 64px;
     background: url(../imges/iconix/dec.png) 50% 50% no-repeat;
+    background-size: 50px;
     position: absolute;
     content: "";
-    top: 108px;
-    left: 166px;
+    top: -64px;
+    left: 0;
 }
 
 .sec1 .sec1_bg .inner .sec1_pororo {
@@ -682,38 +687,40 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     width: 368px;
     height: 509px;
     background: url(../imges/iconix/pororo.png) 50% 50% no-repeat;
-    margin: 169px 47px 0 0;
+    /* background-size: 100px; */
+    margin: 0 0 0 0;
     z-index: 1;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle {
     position: relative;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir {
-    width: 322px;
-    height: 322px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: rgba(60, 185, 233, 0.4);
-    padding: 94px 0 0 100px;
+    padding: 48px 0 0 47px;
     position: absolute;
-    top: -86px;
-    right: 174px;
+    top: 28px;
+    right: 0;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir:last-child {
     background: rgba(62, 137, 199, 0.4);
-    top: 196px;
-    right: 420px;
+    top: 175px;
+    right: 0;
+    left: -322px;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 span {
-    font-size: 94px;
+    font-size: 75px;
     letter-spacing: -9px;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 span:last-child {
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 0;
 }
 .sec1 .sec1_bg .inner .sec1_pororo .po_refer {
