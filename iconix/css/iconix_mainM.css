@@ -193,11 +193,12 @@ header .head .lang button {
     background-color: #3cb9e9;
     font-weight: 700;
     display: flex;
-    /* margin: 14px 0 0 84px; */
+    margin: 14px 0 0 83px;
     padding-left: 7px;
-    position: absolute;
+    /* position: absolute;
     top: 14px;
-    left: 84px;
+    left: 0;
+    right: 0; */
 }
 header .head .lang button i {
     display: block;
@@ -224,7 +225,7 @@ header .head .lang ul {
 header .head .lang ul.open {
     display: block;
     z-index: 5;
-    margin: -1px 0 0 84px;
+    margin: -13px 0 0 84px;
 }
 header .head .lang ul li {
     list-style: none;
