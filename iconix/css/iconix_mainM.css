@@ -194,11 +194,9 @@ header .head .lang button {
     background-color: #3cb9e9;
     font-weight: 700;
     display: flex;
-
-    /* margin: 14px 0 0 83px; */
     padding-left: 7px;
     position: absolute;
-    top: 14px;
+    top: 15px;
     left: -24px;
     right: 0;
 }
@@ -206,7 +204,7 @@ header .head .lang button i {
     display: block;
     font-size: 17px;
     color: white;
-    padding-top: 2px;
+    padding-top: 3px;
     margin-left: 7px;
     font-weight: 400;
     /* position: relative; */
