@@ -1,15 +1,46 @@
+// 모바일일때 스와이퍼 구현 (루나 10번 카카오)
+// 641기준으로 모바일과 pc나눔 기본형
+// 1.스크립트 기본형
+// var iw = window.innerWidth;
+// if (iw < 641) {
+//     var swiper1 = new Swiper('.swiper-container.swipe1', {
+//         scrollbar: {
+//             el: '.swiper-scrollbar',
+//             hide: true,
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//     });
+// }
 
 
-//메뉴 나오기
-$(document).ready(function(){
-	$('.subGub_list').hide();
-	$('.sub.s1').mouseover(function(){
-		$('.subGub_list').slideDown();
-	});
-  $('.sub.s1').mouseleave(function(){
-		$('.subGub_list').slideUp();
-	});
-});
+
+//메뉴 나오기(641후부터는 마우스오버가 작동한다)
+var iw = window.innerWidth;
+if (iw > 641) {
+    var swiper1 = new Swiper('.swiper-container.swipe1', {
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    $(document).ready(function(){
+      $('.subGub_list').hide();
+      $('.sub.s1').mouseover(function(){
+        $('.subGub_list').slideDown();
+      });
+      $('.sub.s1').mouseleave(function(){
+        $('.subGub_list').slideUp();
+      });
+    });
+}
+
 
 //메뉴 스크롤 이동
 jQuery(document).ready(function ($) {
@@ -135,13 +166,9 @@ function countUp() {
         complete: function() {
           $this.text(this.countNum);
       }
-
     });
   });
 };
-
-
-
 
 
 //each로 줄여보기.뉴스 버튼
@@ -261,4 +288,130 @@ var youtube = new Swiper('.swiper-container.youtube1', {
       prevEl: '.swiper-button-prev',
     },
   });
+
+
+
+
+
+// //모바일 메뉴 열기/닫기
+// $(document).ready(function () {
+//   //리사이징 할때마다 새로고침
+//   var lastWidth = $(window).width();
+//   $(window).resize(function () {
+//       if ($(window).width() != lastWidth) {
+//           location.reload();
+//           lastWidth = $(window).width();
+//           return false;
+//       }
+//   });
+//   $(".lang button").click(function () {
+//       $(".lang ul").addClass("on");
+//   });
+//   $(".lang button").click(function () {
+//       $(".lang ul").removeClass("on");
+//   });
+
+  // // 2차 메뉴 열기
+  // $(".gnb > li > a").click(function () {
+  //     $(this).next().slideToggle(300);
+  //     //this 다음 요소를 슬라이드토글
+  //     $(".gnb > li > a").not(this).next().slideUp(300);
+  //     //this가 아니라면 다음 요소는 슬라이드업
+  //     return false;
+  //     //a href="#"을 클릭했을때 목적지가 없어서 리프레시 되는것을 막음
+  // });
+// });
+
+
+
+
+// $(document).ready(function () {
+//   $(".lang button").click(function () {
+//     $(".lang ul").addClass("on").siblings().removeClass("on");
+//     $(this).addClass("on").siblings().removeClass("on")
+//   });
+// });
+
+// $(document).ready(function () {
+//   if ($(window).width() < 641) {
+//     $(".lang button").click(function () {
+//       $(".lang ul").addClass("open");
+//     });
+//     $(".lang button").click(function(){
+//       $(".lang ul").removeClass("open");
+//       // nav에 open클래스 추가/삭제
+//   });
+//   }
+// });
+
+
+
+
+//-----------------------------모바일메뉴(runa 25번)
+$(document).ready(function(){
+  //리사이징 할때마다 새로고침
+  var lastWidth = $(window).width();
+  $(window).resize(function(){
+      if($(window).width()!=lastWidth){
+          location.reload();
+          lastWidth = $(window).width();
+          return false;
+      }
+  });
+ // 모바일메뉴 open/close
+  $(".lang button").click(function () {
+    $(".lang ul").toggleClass("open");
+    // nav에 open클래스 추가/삭제
+  });
+  $(".subGub_list").off("mouseover");
+
+  // $(".subGub.sg1").click(function () {
+  //   $(".subGub_list").addClass("click");
+  //   // return false 
+  // });
+
+
+
+//  $(".mCloseBt").click(function(){
+//      $("nav").removeClass("open");
+//      // nav에 open클래스 추가/삭제
+//  });
+
+//  if($(window).width() < 641){
+//      // 모바일용 아코디언 메뉴
+//      $(".mSnb").hide();
+//      // .mSnb를 숨기고 시작
+//      $(".gnbMenu > .title").click(function(){
+//          $(this).next().slideToggle(300);
+//          //this 다음 요소를 슬라이드다운
+//          $(".gnbMenu > .title").not(this).next().slideUp(300);
+//          return false;
+//          // a href="#"일때 갈곳이 없으면 무조건 페이지 상단(처음)으로 이동하는데
+//          // 클릭한 다음 링크기능을 수행못하도록 return false;를 입력
+//      });    
+//  }
+});
+  
+//햄버거 버튼 x로 번갈아가며
+$('.hamburger_button').click(function(ev){
+  ev.preventDefault();
+  $(this).toggleClass('active');
+
+  //햄버거 누르면 메뉴 나오기
+  const menu = $('.gub');
+  menu.toggleClass("active");
+  // $('.gub').slideDown(900);
+});
+
+
+//햄버거 누르면 메뉴 나오기
+// const toggleBtn = $('.hamburger_button');
+// const menu = $('.gub');
+
+// toggleBtn.click (function (){
+//   menu.toggleClass("active");
+
+// });
+
+
 
