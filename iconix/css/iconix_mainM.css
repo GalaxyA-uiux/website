@@ -390,9 +390,11 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover::after,
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover span,
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button::before,
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button:hover::before,
-header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover .buthov {
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button:hover::before {
     display: none;
+}
+header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1:hover .buthov {
+    color: white;
 }
 header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_1 button { 
     font-size: 16px;
@@ -590,7 +592,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     height: 51px;
     background: url(../imges/iconix/arrow.png) 50% 50% no-repeat;
     background-size: 76px;
-    margin: -18px 0 -8px -102px;
+    margin: -18px 0 -3px -102px;
     /* margin: 0 0 0 0; */
 }
 
