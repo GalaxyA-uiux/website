@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+/* kopub 명조 */
+@font-face{
+	font-family : KoPubBatangBold;
+	src : url('/webfont/KoPubBatangBold.eot');
+	src : url('/webfont/KoPubBatangBold.woff') format('woff');
+}
+@font-face{
+	font-family : KoPubBatangLight;
+	src : url('/webfont/KoPubBatangLight.eot');
+	src : url('/webfont/KoPubBatangLight.woff') format('woff');
+}
+@font-face{
+	font-family : KoPubBatangMedium;
+	src : url('/webfont/KoPubBatangMedium.eot');
+	src : url('/webfont/KoPubBatangMedium.woff') format('woff');
+}
+
+/* since 서체(Playfair Display) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/* font-awsome v5.10 */
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    /* border: 1px solid red; */
+}
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    min-width: 320px;
+}
+
+
+
+
+nav {
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    width: 194px;
+    height: 91px;
+    background: url(../imges/mini-logo-w.png) 0 0 no-repeat;
+    background-size: 192px;
+    cursor: pointer;
+}
+nav .hamburger_button {
+    display: block;
+    position: absolute;
+    content: '';
+    right: 13px;
+    top: 16px;
+    width: 23px;
+    height: 23px;
+}
+nav .hamburger_button span {
+    position: absolute;
+    height: 4px;
+    border-radius: 4px;
+    width: 100%;
+    background: #535353;
+    top: 0;
+    transition: .2s;
+}
+nav .hamburger_button span:nth-child(2),
+nav .hamburger_button span:nth-child(3) {
+    top: 8px;
+}
+nav .hamburger_button span:last-child {
+    top: 16px;
+}
+nav .hamburger_button.active span:first-child,
+nav .hamburger_button.active span:last-child {
+    opacity: 0;
+}
+nav .hamburger_button.active span:nth-child(2) {
+    transform: rotate(45deg);
+}
+nav .hamburger_button.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}

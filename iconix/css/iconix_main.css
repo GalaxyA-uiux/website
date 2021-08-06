@@ -250,7 +250,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .video_box .mask_video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #292929;
+    background: #444444;
     /* background-image: url(../imges/iconix/pattern_01.png);
     background-repeat: repeat;
     background-size: 6px 6px; */
@@ -679,7 +679,7 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     left: 166px;
 }
 
-.sec1 .sec1_bg .inner .sec1_pororo {
+/* .sec1 .sec1_bg .inner .sec1_pororo {
     display: flex;
     justify-content: flex-end;
 }
@@ -730,6 +730,66 @@ header .swiper-container .swiper-wrapper .swiper-slide .inner.main-text .button_
     position: absolute;
     top: 577px;
     right: 304px;
+    font-size: 15px;
+    color: #c3c3c3;
+    z-index: 2;
+} */
+
+
+.sec1 .sec1_bg .inner {
+    position: relative;
+}
+.sec1 .sec1_bg .inner .sec1_pororo {
+    position: relative;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir {
+    width: 322px;
+    height: 322px;
+    border-radius: 50%;
+    background: rgba(60, 185, 233, 0.4);
+    padding: 94px 0 0 100px;
+    position: absolute;
+    top: -85px;
+    right: 15%;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir:last-child {
+    background: rgba(62, 137, 199, 0.4);
+    top: 203px;
+    right: 36%;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 span {
+    font-size: 94px;
+    letter-spacing: -9px;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_circle .po_cir h4 span:last-child {
+    font-size: 21px;
+    letter-spacing: 0;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .pororo {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 368px;
+    height: 509px;
+    background: url(../imges/iconix/pororo.png) 50% 50% no-repeat;
+    margin: 12% 3% 0 0;
+    z-index: 1;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_refer {
+    position: relative;
+}
+.sec1 .sec1_bg .inner .sec1_pororo .po_refer span {
+    width: 212px;
+    height: 20px;
+    position: absolute;
+    top: 564px;
+    right: 25%;
     font-size: 15px;
     color: #c3c3c3;
     z-index: 2;

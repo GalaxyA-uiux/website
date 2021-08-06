@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* 크로스 브라우징 연습 */
+
+/* ie11hack */
+/* @media all and (-ms-high-contrast:none) {
+    header .head .lang {
+        display: block;
+        float: right;
+    }
+} */
+
+
+/* runa IEstyle.css 참고(hack 쓰지말것) */
+
+
+/* ie10,ie11 hack */
+/* @media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    header .head .lang {
+        display: block;
+        float: right;
+    }
+} */
+
+
+/* ie-checker로 cross browsing */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .is-ie IE공통요소 */
+.is-ie header .top{ width: 1020px; }
+/* .is-ie .swiper-button-next{
+    width: 75px;
+    height: 75px;
+    background: url(/images/svg/navigate_next-white-48dp.svg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.is-ie .swiper-button-prev{
+    width: 75px;
+    height: 75px;
+    background: url(/images/svg/navigate_before-white-48dp.svg) 50% 50% no-repeat;
+    background-size: cover;
+} */
+
+
+/* .ie11 IE11전용 flex안되는 것 보정 */
+.ie11 header .head .lang {
+    display: block;
+    float: right;
+    height: 100%;
+}
+.ie11 header .head .lang button:first-child {
+    margin-right: 8px;
+}
+.ie11 .swiper-button-next{
+    width: 20px;
+    height: 20px;
+    background: url(../imges/svg/navigate_before-white-48dp.svg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.ie11 .swiper-container.main .swiper-button-next {
+    left: 357px;
+    top: 361px;
+}

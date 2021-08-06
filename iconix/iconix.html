@@ -5,10 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICONIX</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="../iconix/css/swiper.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../iconix/css/iconix_main_cross.css">
     <link rel="stylesheet" type="text/css" href="../iconix/css/iconix_main.css">
     <link rel="stylesheet" type="text/css" media="all and (max-width:640px)" href="../iconix/css/iconix_mainM.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" media="(min-width:641px) and (max-width:1080px)" href="../iconix/css/iconix_mainM.css"> -->
+    <!-- 테블릿 사이즈 가로는 노트북과 비슷하다. 또한, 요즘 테블릿, 컴퓨터, 휴대폰 사이즈가 다양해져서 자기가 소장하고 있는 디바이스를 기준으로 해도 되고, 이것은 다양하게 설정할 수 있다. -->
 </head>
 
 
@@ -68,7 +72,7 @@
                     <div class="video_box">
                         <div class="mask_video"></div>
                         <video class="mainVideo" autoplay muted loop>
-                            <source src="../iconix/video/Pororo_main(2).mp4" type="video/mp4">
+                            <source src="../iconix/video/Pororo_main.mp4" type="video/mp4">
 
                         </video>
                     </div>
@@ -99,7 +103,7 @@
                     <div class="video_box">
                         <div class="mask_video"></div>
                         <video class="mainVideo" autoplay muted loop>
-                            <source src="../iconix/video/tayo_main(2).mp4" type="video/mp4">
+                            <source src="../iconix/video/tayo_main.mp4" type="video/mp4">
                         </video>
                     </div>
 
@@ -255,10 +259,7 @@
                 </div>
 
                 <div class="sec1_pororo">
-                    <div class="pororo" data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="3000"
-                    data-aos-duration="1500"></div>
+                    
                     <div class="po_circle" data-aos="fade-up" data-aos-duration="1500">
                         <div class="po_cir">
                             <h4>
@@ -275,12 +276,17 @@
                             </h4>
                         </div>
                     </div>
+                    <div class="pororo" data-aos="fade-left"
+                    data-aos-duration="1500"></div>
                     <div class="po_refer" data-aos="fade-left"
                     data-aos-anchor="#example-anchor"
-                    data-aos-offset="3000"
                     data-aos-duration="1500">
                         <span>2021. &lt;뽀롱뽀롱 뽀로로&gt; 기준.</span>
                     </div>
+                    <!-- <div class="pororo" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="3000"
+                    data-aos-duration="1500"></div> -->
                 </div>
             </div>
         </div>
@@ -292,7 +298,7 @@
 
 
 
-    <!-- <article class="inner art1">
+    <article class="inner art1">
         <div>
             <div class="intro"> 
                 <div class="int_1 on" id="pos2">
@@ -310,7 +316,8 @@
                                 src="https://www.youtube.com/embed/nHOi7Uh41nQ?autoplay=1&mute=1"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                                allowfullscreen>
+                            </iframe>
                         </div>
                         <div class="news_text">
                             <h2>‘뽀로로 X 오마이걸’ 신곡<br>&lt;보글보글(Boggle Boggle)&gt; 공개
@@ -440,38 +447,54 @@
                 <div class="news_button">
                     <button class="button1 on">
                         <span class="bt_character c1"></span>
-                        ‘뽀로로 X 오마이걸’ 신곡<br>&lt;보글보글(Boggle Boggle)&gt; 공개
+                        <span class="bt_title">
+                            ‘뽀로로 X 오마이걸’ 신곡<br>&lt;보글보글(Boggle Boggle)&gt; 공개
+                        </span>
                     </button>
                     <button class="button2">
                         <span class="bt_character c1"></span>
-                        반려동물용품도 뽀로로다!<br>뽀로로펫 신제품 3종 출시
+                        <span class="bt_title">
+                            반려동물용품도 뽀로로다!<br>뽀로로펫 신제품 3종 출시
+                        </span>
                     </button>
                     <button class="button3">
                         <span class="bt_character c2"></span>
-                        잔망루피, LG트윈스와<br>캐릭터 콜라보레이션 진행
+                        <span class="bt_title">
+                            잔망루피, LG트윈스와<br>캐릭터 콜라보레이션 진행
+                        </span>
                     </button>
                     <button class="button4">
                         <span class="bt_character c3"></span>
-                        띠띠뽀 띠띠뽀,<br>철도안전 지킴이로 활약
+                        <span class="bt_title">
+                            띠띠뽀 띠띠뽀,<br>철도안전 지킴이로 활약
+                        </span>
                     </button>
                     <button class="button5">
                         <span class="bt_character c1"></span>
-                        대상라이프사이언스, 뽀로로와 손잡고<br>뉴케어 마이키즈 신제품 선보여
+                        <span class="bt_title">
+                            대상라이프사이언스, 뽀로로와 손잡고<br>뉴케어 마이키즈 신제품 선보여
+                        </span>
                     </button>
                     <button class="button6">
                         <span class="bt_character c4"></span>
-                        봄맞이 뽀로로&타요<br>신상 완구 만나보기
+                        <span class="bt_title">
+                            봄맞이 뽀로로&타요<br>신상 완구 만나보기
+                        </span>
                     </button>
                     <button class="button7">
                         <span class="bt_character c1"></span>
-                        뽀로로와 향균 손터치! 에어퓨리티 프리텍스<br>뽀로로 항바이러스 패치 출시
+                        <span class="bt_title">
+                            뽀로로와 향균 손터치! 에어퓨리티 프리텍스<br>뽀로로 항바이러스 패치 출시
+                        </span>
                     </button>
                     <button class="button8">
                         <span class="bt_character c2"></span>
-                        잔망루피, 대형 브랜드와<br>역대급 콜라보레이션 제품 출시
+                        <span class="bt_title">
+                            잔망루피, 대형 브랜드와<br>역대급 콜라보레이션 제품 출시
+                        </span>
                     </button>
                 </div>
-            </div>
+                </div>
             <div class="licens">
                 <div class="licens_img">
                 </div>
@@ -523,10 +546,10 @@
 
 
 
-    </article>ㅇㅇ -->
+    </article>
 
 
-    <!-- <section class="sec2">
+    <section class="sec2">
         <div class="inner" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
             <h2>
                 YOUTUBE HIGHLIGHT
@@ -622,9 +645,9 @@
             </div>
         </div>
 
-    </section> -->
+    </section>
 
-    <!-- <footer>
+    <footer>
         <div class="inner">
             <div class="footer_text">
                 <a href="#">
@@ -657,10 +680,13 @@
             </a>
         </div>
 
-    </footer> -->
+    </footer>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script src="../iconix/js/swiper.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../IE-Checker/ie-checker-min.js"></script>
     <script src="../iconix/js/jquery-3.6.0.min.js"></script>
     <script src="../iconix/js/iconix.js"></script>
     <script>
