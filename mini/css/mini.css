@@ -2,13 +2,21 @@
 
 
 /* kopub 명조 */
-
+@font-face{
+	font-family : KoPubBatangBold;
+	src : url('/webfont/KoPubBatangBold.eot');
+	src : url('/webfont/KoPubBatangBold.woff') format('woff');
+}
 @font-face{
 	font-family : KoPubBatangLight;
 	src : url('/webfont/KoPubBatangLight.eot');
 	src : url('/webfont/KoPubBatangLight.woff') format('woff');
 }
-
+@font-face{
+	font-family : KoPubBatangMedium;
+	src : url('/webfont/KoPubBatangMedium.eot');
+	src : url('/webfont/KoPubBatangMedium.woff') format('woff');
+}
 
 /* since 서체(Playfair Display) */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
